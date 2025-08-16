@@ -1,0 +1,1 @@
+I deployed a containerized application (grafana) on amazon ecs with fargate using appropriate cpu and memory settings. Once deployed on a public subnet, I created a cloudwatch dashboard with widgets for cpu utilization and memory utilization to monitor ecs task in real time and I also observed how the metrics changed
