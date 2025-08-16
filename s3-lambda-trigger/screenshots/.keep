@@ -1,0 +1,1 @@
+I created an s3 bucket that will automatically trigger a lambda function whenever a new file is uploaded to the bucket
