@@ -1,0 +1,1 @@
+I deployed a metabase on amazon ecs using the fargate launch type and connected it to a postgresql database hosted on amazon RDS
