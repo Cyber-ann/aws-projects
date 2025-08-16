@@ -1,0 +1,2 @@
+I Launched a new windows server EC2 instance using Amazon Windows Server 2019 Base AMI, I ensured the instance is deployed in a public subnet and secured with a security group that permits
+RDP access (port 3389) only from my public ip address. I also assigned the instance a name tag with the value CSN-Bootcamp-week3
