@@ -1,0 +1,1 @@
+I deployed grafana using amazon ECs with fargate. I used the official docker image grafana/grafana, created a task definition that exposes port 3000 and ran it in a public subnet. I also ensured the security group allows inbound traffic on port 3000
