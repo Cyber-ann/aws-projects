@@ -1,4 +1,5 @@
 ### Building a Multi-VPC Architecture with VPC Peering on AWS
+---
 
 ### Objective
 The goal of this project was to design and deploy a multi-VPC architecture on Amazon Web Services (AWS). I created two separate VPCs, configured subnets in each, and established a VPC peering connection to enable communication between them. This project demonstrates how to interconnect multiple networks securely in the cloud.
