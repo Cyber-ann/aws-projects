@@ -1,1 +1,0 @@
-I deployed a personal static website (resume page) using amazon s3 and cloudfront. After that, I set up a cloudfront distribution that uses the s3 bucket as its origin to securely deliver the content
