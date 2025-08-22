@@ -47,4 +47,3 @@ This project successfully demonstrated the deployment and secure configuration o
 - Secure it by restricting RDP access to only my IP.
 - Connect from Linux using xfreerdp.
 
-This exercise reinforced key cloud administration skills, particularly around security controls, remote access, and AWS resource management.
