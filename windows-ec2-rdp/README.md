@@ -25,19 +25,21 @@ Connectivity: RDP (Port 3389) restricted to my public IP
 ### Steps
 1. Launched the EC2 Instance
 
-![Create User](./screenshots/image1.png)
+  ![Create User](./screenshots/image1.png)
 
 2. I Created a new security group, Allowed RDP access (port 3389) only from my public IP address for secure access and denied all other external traffic.
 
-![Create User](./screenshots/image2.png)
+  ![Create User](./screenshots/image2.png)
 
 3. I connected to the Instance (From Linux). Since I’m using a Linux system, I used xfreerdp to establish a Remote Desktop connection using the command xfreerdp /u:Administrator /p:'T7E;wd??Fjl@uRs!!-UQBe%R8kj*UU6V' /v:13.61.80.112 /cert:ignore /bpp:24 /network:lan /size:1280x800 /smart-sizing
 
-![Create User](./screenshots/image3.png)
+  ![Create User](./screenshots/image3.png)
 
 4. I Successfully connected via rdp
 
- ![Create User](./screenshots/image4.png)
+   ![Create User](./screenshots/image4.png)
+
+   ![Create User](./screenshots/image5.png)
 
  ### Conclusion
 This project successfully demonstrated the deployment and secure configuration of a Windows Server EC2 instance on AWS. I was able to:
