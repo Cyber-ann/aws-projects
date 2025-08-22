@@ -49,3 +49,10 @@ The goal of this project was to deploy Grafana using Amazon ECS with Fargate, le
 6. I successfully logged into grafana using the default admin admin credentials
 
      ![Create User](./screenshots/image6.png)
+
+### Conclusion
+This project successfully demonstrated deploying Grafana on Amazon ECS with Fargate. I was able to:
+- Create the required VPC, subnets, and security group.
+- Configure an ECS task definition with the official Grafana Docker image.
+- Deploy and manage Grafana using an ECS Cluster and Service.
+- Access the application securely through my browser on port 3000.
