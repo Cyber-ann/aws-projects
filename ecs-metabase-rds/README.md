@@ -32,7 +32,7 @@ The goal of this project was to deploy Metabase using Amazon ECS with the Fargat
 ### Steps
 1. I created a PostgreSQL Database in Amazon RDS. I launched a PostgreSQL instance in the same VPC as the ECS cluster,and configured the RDS security group to allow inbound traffic on port 5432 from ECS tasks.
 
-  [Create User](./screenshots/image1.png)
+  [Create User](ecs-metabase-rds/screenshots/image1.png)
 
 2. I deployed an ECS Cluster using the Fargate launch type.
 
