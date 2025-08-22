@@ -1,4 +1,5 @@
 ### Deploying Grafana on Amazon ECS with Fargate
+---
 
 ### Objective
 The goal of this project was to deploy Grafana using Amazon ECS with Fargate, leveraging the official Docker image grafana/grafana. The task involved creating a Fargate task definition, exposing port 3000, deploying the service in a public subnet, and ensuring inbound traffic access on port 3000 through security group rules.
