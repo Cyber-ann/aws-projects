@@ -1,4 +1,5 @@
 ### Deploying Metabase on Amazon ECS with Fargate and PostgreSQL on Amazon RDS
+---
 
 ### Objective
 The goal of this project was to deploy Metabase using Amazon ECS with the Fargate launch type and connect it to a PostgreSQL database hosted on Amazon RDS. The deployment used the official Metabase Docker image from Docker Hub and environment variables were configured for database connectivity. Networking was configured to ensure both ECS and RDS were in the same VPC and the RDS security group allowed inbound traffic on port 5432 from the ECS tasks.
